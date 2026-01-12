@@ -2,7 +2,7 @@
 
 - Na inicialização do programa projeto_sim_hospital.py, surge um painel de configuração da simulação hospitalar, no qual se podem editar vários parâmetros que influenciam os resultados obtidos.
 
-![alt text](<Captura de ecrã 2026-01-01 133824.png>)
+<img width="541" height="930" alt="Captura de ecrã 2026-01-01 133824" src="https://github.com/user-attachments/assets/9dfce395-1734-4bd2-8ecc-5a677344a97d" />
 
 - É possível variar as taxas de chegada de forma a aproximar a simulação de diferentes situações reais, em diversos contextos, sendo possível ajustar as taxas de chegada de pacientes das ondas definidas entre os valores de 10 e 30 pacientes por hora.
 
@@ -96,5 +96,6 @@
   ![alt text](<Captura de ecrã 2026-01-01 174424-1.png>)
 
 - É possível observar, de forma geral, uma tendência progressiva para a diminuição do tempo de ocupação, do tamanho das filas e do tempo necessário após o fim da geração de chegadas. Verifica-se também um aumento acentuado do tempo após o fim da geração de chegadas quando o número de médicos é apenas 2, concluindo-se que o número mínimo de médicos aconselhável para evitar a sobrecarga do sistema hospitalar é 3.
+
 
 - É importante realçar que a determinação dos tempos de chegada, de atendimento ao balcão e da duração das consultas é efetuada com base em distribuições estatísticas. Deste modo existe alguma variabilidade nos resultados entre simulações distintas com parâmetros idênticos, o que deve ser tido em conta na análise e avaliação dos resultados.
